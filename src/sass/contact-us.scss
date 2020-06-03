@@ -1,0 +1,69 @@
+#contact{
+    padding: 80px 16px;
+    .info{
+        color: #333;
+        i {
+            font-size: 32px;
+            color: $theme-color;
+            float: left;
+        }
+        p {
+            padding: 0 0 10px 45px;
+            margin-bottom: 20px;
+            line-height: 22px;
+            font-size: 14px;
+            margin: 0 0 26px 0;
+            font-weight: 400;
+        }
+    }
+    .social-links {
+        padding-bottom: 20px;
+        a {
+            font-size: 18px;
+            display: inline-block;
+            background: #333;
+            color: $white;
+            line-height: 1;
+            padding: 8px 0;
+            border-radius: 50%;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            transition: 0.3s;
+            text-decoration: none;
+            &:hover{
+                background: $theme-color;
+                color: $white;
+            }
+        }
+    }
+    .contact-Form{
+        input, textarea{
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 14px;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: $white;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .submit-btn{
+            background: $theme-color;
+            border: 0;
+            padding: 10px 24px;
+            color: $white;
+            transition: 0.4s;
+            text-decoration: none;
+            font-weight: 400;
+        }
+    }
+}   

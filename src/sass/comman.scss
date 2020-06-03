@@ -1,0 +1,25 @@
+.section-header{
+    text-align: center;
+    margin: 0 auto;
+    h3{
+        font-size: 32px;
+        color: $black;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 40px;
+        color: #999;
+        margin: 0 0 30px 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+.space{
+    margin-bottom: 30px;
+}

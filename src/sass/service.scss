@@ -1,0 +1,70 @@
+#service{
+    padding: 80px 16px;
+    .box {
+        padding: 50px 20px;
+        margin-bottom: 50px;
+        text-align: center;
+        border: 1px solid #e6e6e6;
+        height: 200px;
+        position: relative;
+        background: #fafafa;
+        &:hover{
+            .icon {
+                background: $white;
+                border: 2px solid $theme-color;
+                a {
+                    color: $theme-color;
+                    i {
+                        color: $theme-color;
+                    }
+                }
+            }
+        }
+            .icon {
+                position: absolute;
+                top: -36px;
+                left: calc(50% - 36px);
+                transition: 0.2s;
+                border-radius: 50%;
+                border: 6px solid $white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                width: 72px;
+                height: 72px;
+                background: $theme-color;
+                a {
+                    display: inline-block;
+                    color: $theme-color;
+                    text-decoration: none;
+                i {
+                    color: $white;
+                    font-size: 24px;
+                }
+            }
+        }
+        .title {
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            margin: 0 0 20px 0;
+            padding: 0;
+            line-height: 1.2;
+            a {
+                color: #111;
+                text-decoration: none;
+            }
+        }
+        .description {
+            font-size: 14px;
+            line-height: 24px;
+            margin: 0 0 30px 0;
+            text-align: center;
+            color: #666;
+            font-weight: 400;
+        }
+    }
+}
